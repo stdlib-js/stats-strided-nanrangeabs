@@ -50,13 +50,13 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@deno/mod.js';
+import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-deno/mod.js';
 ```
 
 #### nanrangeabs( N, x, strideX )
@@ -149,7 +149,7 @@ var v = nanrangeabs.ndarray( 5, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@deno/mod.js';
+import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
