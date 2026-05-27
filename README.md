@@ -50,13 +50,13 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@esm/index.mjs';
+import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-esm/index.mjs';
 ```
 
 #### nanrangeabs( N, x, strideX )
@@ -154,7 +154,7 @@ var v = nanrangeabs.ndarray( 5, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@esm/index.mjs';
+import nanrangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanrangeabs@v0.0.0-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
